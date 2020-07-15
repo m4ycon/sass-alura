@@ -535,6 +535,7 @@ header .container {
   padding: 0.6em;
   font-size: 1.2em;
   font-weight: bold;
+  -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 6.65px;
@@ -587,6 +588,7 @@ header .container {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
+  -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 6.65px;
@@ -642,6 +644,7 @@ textarea {
   width: 100%;
   margin-bottom: 0.8em;
   padding: 4px 8px;
+  -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   border: 2px solid #ccc;
@@ -655,6 +658,7 @@ textarea {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
+  -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 6.65px;

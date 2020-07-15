@@ -41,7 +41,7 @@
     width: 210px;
     height: 38px;
     font-size: 1.2em;
-    @include borda-arredondada;
+    @include border-radius($raio-padrao);
     @include box-shadow($sombra-botao);
     margin-left: 2em;
   }

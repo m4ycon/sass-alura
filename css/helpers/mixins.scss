@@ -1,9 +1,5 @@
 @import 'compass/css3';
-
-@mixin borda-arredondada($raio: 0.3em) {
-  -webkit-border-radius: $raio;
-  border-radius: $raio;
-}
+@import "compass/utilities";
 
 %image-replacement {
   text-indent: -9999px;

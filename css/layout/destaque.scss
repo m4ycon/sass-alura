@@ -28,7 +28,7 @@
     padding: 0.6em;
     font-size: 1.2em;
     font-weight: bold;
-    @include borda-arredondada(50px);
+    @include border-radius(50px);
     @include box-shadow($sombra-botao);
   }
 

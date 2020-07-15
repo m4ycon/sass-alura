@@ -29,7 +29,7 @@
     font-size: 1.2em;
     font-weight: bold;
     @include borda-arredondada(50px);
-    @extend %sombra-padrao;
+    @include box-shadow($sombra-botao);
   }
 
   @media #{$mq-mobile} {

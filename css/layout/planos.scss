@@ -42,7 +42,7 @@
     height: 38px;
     font-size: 1.2em;
     @include borda-arredondada;
-    @extend %sombra-padrao;
+    @include box-shadow($sombra-botao);
     margin-left: 2em;
   }
 }

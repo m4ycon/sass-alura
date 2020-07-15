@@ -27,8 +27,13 @@
     border: 0;
     padding: 0.6em;
     font-size: 1.2em;
+    font-weight: bold;
     @include borda-arredondada(50px);
     @extend %sombra-padrao;
-    font-weight: bold;
   }
+
+  @media #{$mq-mobile} {
+		font-size: 14px;
+		height: 250px;
+	}
 }

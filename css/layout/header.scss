@@ -4,10 +4,33 @@ header {
   height: 90px;
   width: 100%;
   position: absolute;
+
+  @media #{$mq-mobile} {
+    height: auto;
+
+    .container {
+      position: static;
+    }
+
+    h1 {
+      max-width: 50%;
+      margin: 0 auto;
+
+      img {
+        max-width: 100%;
+        margin: 0.5em auto;
+        display: block;
+      }
+    }
+  }
 }
 
 header .container {
   position: relative;
+
+  @media #{$mq-mobile} {
+    position: static;
+  }
 }
 
 .menu-principal {
@@ -17,6 +40,13 @@ header .container {
   font-size: 1.2em;
   font-weight: lighter;
 
+  @media (max-width: 980px) {
+    position: static;
+    display: block;
+    text-align: center;
+    width: auto;
+  }
+
   ul {
     padding-left: 0;
   }
@@ -24,6 +54,11 @@ header .container {
   li {
     display: inline-block;
     width: 5em;
+
+    @media (max-width: 980px) {
+      margin: 0.4em;
+      width: auto;
+    }
   }
 
   a {

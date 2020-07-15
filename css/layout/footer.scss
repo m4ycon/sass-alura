@@ -26,8 +26,8 @@ footer {
   }
 
   .container {
-    padding-top: 3em;
-    height: 6.5em;
+    padding-top: multiplica-font-size(3);
+    height: multiplica-font-size(6.5);
     position: relative;
 
     img {
@@ -47,12 +47,12 @@ footer {
 }
 
 .menu-rodape {
-  top: 1em;
+  top: multiplica-font-size(1);
   right: 0;
 
   ul li {
     display: inline-block;
-    margin-left: 2em;
+    margin-left: multiplica-font-size(2);
   }
 }
 
@@ -68,7 +68,7 @@ footer {
       width: 55px;
       height: 55px;
       @extend %image-replacement;
-      margin-left: 1em;
+      margin-left: multiplica-font-size(1);
     }
   }
 }

@@ -11,7 +11,7 @@ form {
 .contato input,
 textarea {
   width: 100%;
-  margin-bottom: 0.8em;
+  margin-bottom: multiplica-font-size(0.8);
   padding: 4px 8px;
   @include border-radius($raio-padrao);
   border: 2px solid #ccc;
@@ -24,7 +24,7 @@ textarea {
   color: $cor-branca;
   width: 210px;
   height: 38px;
-  font-size: 1.2em;
+  font-size: multiplica-font-size(1.2);
   @include border-radius($raio-padrao);
   @include box-shadow($sombra-botao);
 }

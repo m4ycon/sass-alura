@@ -4,36 +4,36 @@
   background-size: cover;
   color: white;
   height: 330px;
-  padding-top: 10em;
+  padding-top: multiplica-font-size(10);
 
   p {
-    width: 30em;
+    width: multiplica-font-size(30);
 
     &:first-child {
-      width: 30em;
-      font-size: 1.3em;
+      width: multiplica-font-size(30);
+      font-size: multiplica-font-size(1.3);
       line-height: 1.1;
     }
 
     &:first-child:first-line {
-      font-size: 2.2em;
+      font-size: multiplica-font-size(2.2);
       font-weight: bold;
     }
   }
 
   button {
-    margin-top: 1em;
+    margin-top: multiplica-font-size(1);
     background: $cor-padrao;
     border: 0;
-    padding: 0.6em;
-    font-size: 1.2em;
+    padding: multiplica-font-size(0.6);
+    font-size: multiplica-font-size(1.2);
     font-weight: bold;
     @include border-radius(50px);
     @include box-shadow($sombra-botao);
   }
 
   @media #{$mq-mobile} {
-		font-size: 14px;
-		height: 250px;
-	}
+    font-size: 14px;
+    height: 250px;
+  }
 }

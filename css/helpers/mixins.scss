@@ -6,3 +6,7 @@
   overflow: hidden;
   background-repeat: no-repeat;
 }
+
+@function multiplica-font-size ($multiplicador: 1) {
+  @return $multiplicador * $font-size-padrao;
+}

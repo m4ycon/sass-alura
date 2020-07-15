@@ -418,7 +418,7 @@ body {
 
 .titulo-secao {
   text-decoration: underline;
-  font-size: 2em;
+  font-size: 32px;
   text-align: center;
 }
 
@@ -426,7 +426,7 @@ body {
 .planos,
 .blog,
 .contato {
-  padding: 3em 0 6em 0;
+  padding: 48px 0 96px 0;
 }
 
 h2 {
@@ -458,7 +458,7 @@ header {
   }
   header h1 img {
     max-width: 100%;
-    margin: 0.5em auto;
+    margin: 8px auto;
     display: block;
   }
 }
@@ -475,8 +475,8 @@ header .container {
 .menu-principal {
   position: absolute;
   right: 0;
-  top: -0.5em;
-  font-size: 1.2em;
+  top: -8px;
+  font-size: 19.2px;
   font-weight: lighter;
 }
 @media (max-width: 980px) {
@@ -492,11 +492,11 @@ header .container {
 }
 .menu-principal li {
   display: inline-block;
-  width: 5em;
+  width: 80px;
 }
 @media (max-width: 980px) {
   .menu-principal li {
-    margin: 0.4em;
+    margin: 6.4px;
     width: auto;
   }
 }
@@ -514,26 +514,26 @@ header .container {
   background-size: cover;
   color: white;
   height: 330px;
-  padding-top: 10em;
+  padding-top: 160px;
 }
 .destaque p {
-  width: 30em;
+  width: 480px;
 }
 .destaque p:first-child {
-  width: 30em;
-  font-size: 1.3em;
+  width: 480px;
+  font-size: 20.8px;
   line-height: 1.1;
 }
 .destaque p:first-child:first-line {
-  font-size: 2.2em;
+  font-size: 35.2px;
   font-weight: bold;
 }
 .destaque button {
-  margin-top: 1em;
+  margin-top: 16px;
   background: #c24e4b;
   border: 0;
-  padding: 0.6em;
-  font-size: 1.2em;
+  padding: 9.6px;
+  font-size: 19.2px;
   font-weight: bold;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
@@ -559,27 +559,28 @@ header .container {
 
 .plano {
   background: white;
-  width: 18em;
+  width: 288px;
   display: inline-block;
-  margin: 1em 0 0 1.4em;
-  padding-bottom: 2em;
+  margin: 16px 0 0 22.4px;
+  padding-bottom: 32px;
 }
 .plano:hover {
   background: #dedede;
 }
 .plano h3 {
   color: #fff;
-  font-size: 1.8em;
+  font-size: 28.8px;
   background: #c24e4b;
   text-align: center;
-  height: 2em;
-  padding-top: 0.6em;
+  height: 32px;
+  padding-top: 9.6px;
+  padding-bottom: 9.6px;
   margin-top: 0;
 }
 .plano div {
   text-align: center;
   color: #c24e4b;
-  font-size: 2.75em;
+  font-size: 44px;
 }
 .plano button {
   background: #c24e4b;
@@ -587,25 +588,25 @@ header .container {
   color: #fff;
   width: 210px;
   height: 38px;
-  font-size: 1.2em;
+  font-size: 19.2px;
   -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 6.65px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 6.65px;
   box-shadow: rgba(0, 0, 0, 0.3) 0 2px 6.65px;
-  margin-left: 2em;
+  margin-left: 32px;
 }
 
 .itens-plano {
-  padding-left: 1.2em;
+  padding-left: 19.2px;
 }
 .itens-plano li {
-  font-size: 1em;
+  font-size: 16px;
   list-style: none;
   border-bottom: 1px solid #acacac;
-  padding: 0.5em;
-  width: 14.8em;
+  padding: 8px;
+  width: 236.8px;
 }
 .itens-plano li:last-child {
   border: 0;
@@ -642,7 +643,7 @@ form {
 .contato input,
 textarea {
   width: 100%;
-  margin-bottom: 0.8em;
+  margin-bottom: 12.8px;
   padding: 4px 8px;
   -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
@@ -657,7 +658,7 @@ textarea {
   color: #fff;
   width: 210px;
   height: 38px;
-  font-size: 1.2em;
+  font-size: 19.2px;
   -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
@@ -697,7 +698,7 @@ textarea {
 }
 
 .post-destaque {
-  margin-right: 2em;
+  margin-right: 32px;
 }
 .post-destaque img {
   width: 100%;
@@ -707,8 +708,8 @@ textarea {
   text-decoration: none;
   color: black;
   background: url(../imagens/icone-relogio.png) left center no-repeat;
-  padding-left: 2.5em;
-  height: 1.7em;
+  padding-left: 40px;
+  height: 27.2px;
   display: block;
 }
 .posts-antigos a:hover {
@@ -743,7 +744,7 @@ textarea {
   width: 50px;
   height: 60px;
   background-position: center;
-  margin: 1em 1.5em 0 0;
+  margin: 16px 24px 0 0;
 }
 .plataformas li:nth-child(1) {
   background-image: url(../imagens/logo-apple.png);
@@ -784,8 +785,8 @@ footer::before {
   z-index: -1;
 }
 footer .container {
-  padding-top: 3em;
-  height: 6.5em;
+  padding-top: 48px;
+  height: 104px;
   position: relative;
 }
 footer .container img {
@@ -802,12 +803,12 @@ footer a {
 }
 
 .menu-rodape {
-  top: 1em;
+  top: 16px;
   right: 0;
 }
 .menu-rodape ul li {
   display: inline-block;
-  margin-left: 2em;
+  margin-left: 32px;
 }
 
 .social {
@@ -821,7 +822,7 @@ footer a {
   display: block;
   width: 55px;
   height: 55px;
-  margin-left: 1em;
+  margin-left: 16px;
 }
 
 .menu-rodape li,
